@@ -1,0 +1,71 @@
+.Rcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 606px;
+    height: 310px;
+    flex-shrink: 0;
+    gap: 10px;
+    border-radius: 20px;
+    border: 1px solid #EACBAC;
+    background: #EACBAC;
+    position: relative;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Rimg {
+    display: flex;
+    width: 240px;
+    height: 290px;
+    flex-shrink: 0;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.Rinputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 500px;
+    height: 224px;
+    margin: 30px;
+}
+
+.Rinputs button {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #CF9A72;
+    color: white;
+    justify-content: right;
+    position: relative;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9a6136;
+}
+
+.Rinputs h2 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Rinputs p {
+    display: flex;
+    width: 231px;
+    padding: 0px 12px;
+    text-align: center;
+    align-items: flex-start;
+    gap: 10px;
+}

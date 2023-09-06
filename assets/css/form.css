@@ -1,0 +1,73 @@
+.Formcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 606px;
+  height: 310px;
+  flex-shrink: 0;
+  gap: 10px;
+  border-radius: 20px;
+  border: 1px solid #EACBAC;
+  background: #EACBAC;
+  position:relative;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Formimg {
+  width: 296px;
+  height: 310px;
+  flex-shrink: 0;
+}
+
+.Forminputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  width: 500px;
+  height: 224px;
+  margin: 40px;
+  margin-left: 85px;
+}
+
+.Forminputs input {
+  width: 128px;
+  height: 70px;
+  border: none;
+  border-radius: 20px;
+  background: #FFF;
+  display: flex;
+  padding: 0px 25px;
+  justify-content: right;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.Forminputs button {
+  width: 80px;
+  height: 100px;
+  border-radius: 30px;
+  border: none;
+  background-color: #CF9A72;
+  color: white;
+  justify-content: right;
+  position: relative;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9a6136;
+}
+
+.Forminputs h2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  height: 50px;
+}

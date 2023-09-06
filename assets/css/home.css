@@ -1,0 +1,82 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.Homecontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 606px;
+    height: 310px;
+    flex-shrink: 0;
+    gap: 10px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    background: #fff;
+    /* margin-left: 300px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Homeimg {
+    display: flex;
+    width: 340px;
+    height: 300px;
+    flex-shrink: 0;
+    margin-top: 4px;
+}
+
+.Homeinputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: px;
+    width: 500px;
+    height: 224px;
+}
+
+.Homeinputs button {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #CF9A72;
+    color: white;
+    justify-content: right;
+    position: relative;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #9a6136;
+}
+
+.Homeinputs h2 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+.Homeinputs p {
+    display: flex;
+    width: 231px;
+    padding: 0px 12px;
+    align-items: flex-start;
+}
