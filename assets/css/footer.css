@@ -65,4 +65,5 @@ ul {
     position: fixed; 
     bottom: 5vh;
     right: 5vw; 
+    cursor: pointer;
 }

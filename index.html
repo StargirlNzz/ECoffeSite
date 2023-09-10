@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ECoffee</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -19,7 +22,7 @@
 <body>
 
     <!-- navbar -->
-    <nav class="navbar">
+    <nav class="navbar" id="navPart">
         <h1 class="logo">
             <img src="assets/picture/logo.png" alt="ECoffee Logo">
             ECoffee
@@ -31,10 +34,10 @@
             <label for="checkbox_toggle" class="hamburger">&#9776;</label>
 
             <div class="menu">
-                <p><a>Home</a></p>
-                <p><a>Journey</a></p>
-                <p><a>Reserve</a></p>
-                <p><a>Products</a></p>
+                <p><a href="#firstPart">Home</a></p>
+                <p><a href="#secondPart">Journey</a></p>
+                <p><a href="#thirdPart">Reserve</a></p>
+                <p><a href="#fourthPart">Products</a></p>
             </div>
         </div>
     </nav>
@@ -42,7 +45,7 @@
 
 
     <!-- coffee_machine -->
-    <div class="Homecontainer">
+    <div class="Homecontainer" id="firstPart">
         <img class="Homeimg" src="assets/picture/coffee_machine.png" alt="coffee_machine" width="380" height="460">
         <div class="Homeinputs">
             <h2>Welcome to our coffee shope</h2>
@@ -53,7 +56,7 @@
     <!-- end coffee_machine -->
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <!-- journey part -->
-    <div class="Jcontainer">
+    <div class="Jcontainer" id="secondPart">
         <header>
             <h1>Start to have Journey in your coffee</h1>
         </header>
@@ -81,7 +84,7 @@
     <!-- end journey part -->
     <br><br><br><br><br><br>
     <!-- reserve -->
-    <div class="Rcontainer">
+    <div class="Rcontainer" id="thirdPart">
         <div class="Rinputs">
             <h2>Reserve your table now</h2>
             <p>You can reserve your table every time with everyone you want, come here we are waiting.</p>
@@ -92,15 +95,18 @@
     </div>
     <!-- end reserve -->
 
-    <!-- <div class="arrowup">
-        <i class="fa-solid fa-circle-arrow-up fa-bounce" style="color: #eacbac;"></i>
-    </div> -->
+    <!-- arrowup -->
+    <div class="arrowup">
+        <a href="#navPart"><i class="fa-solid fa-circle-arrow-up fa-bounce" style="color: #eacbac;"></i></a>
+    </div>
     <br><br><br>
 
     <!-- Swiper -->
-    <div class="swiper mySwiper">
+    <div class="swiper mySwiper" id="fourthPart">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">
+                <img src="assets/picture/cup_.png" alt="">
+            </div>
             <div class="swiper-slide">Slide 2</div>
             <div class="swiper-slide">Slide 3</div>
             <div class="swiper-slide">Slide 4</div>
