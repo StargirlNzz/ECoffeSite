@@ -45,6 +45,7 @@
     justify-content: right;
     position: relative;
     cursor: pointer;
+    font-family: 'Nunito', sans-serif;
 }
 
 button:hover {
@@ -54,11 +55,12 @@ button:hover {
 .Rinputs h2 {
     color: #000;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Nunito', sans-serif;
     font-size: 19px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-bottom: 20px;
 }
 
 .Rinputs p {
@@ -68,4 +70,6 @@ button:hover {
     text-align: center;
     align-items: flex-start;
     gap: 10px;
+    margin-bottom: 20px;
+    font-family: 'Nunito', sans-serif;
 }

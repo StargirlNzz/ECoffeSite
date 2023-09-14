@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="assets/css/swiper.css">
     <link rel="stylesheet" href="assets/js/swiper.js">
     <link rel="stylesheet" href="assets/js/footerScroll.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -98,7 +101,16 @@
 
     <!-- arrowup -->
     <div class="arrowup">
-        <a href="#navPart"><i class="fa-solid fa-circle-arrow-up fa-bounce" style="color: #eacbac;"></i></a>
+        <a href="#navPart" onclick="scrollToTop()"><i class="fa-solid fa-circle-arrow-up fa-bounce" style="color: #eacbac; transition: transform 0.6s ease-in-out; transform: translateY(-5px);" ></i></a>
+        <script>
+        function scrollToTop() {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+
+          });
+        }
+        </script>
     </div>
     <br><br><br>
 

@@ -36,6 +36,7 @@ header {
     font-weight: 600;
     margin: 5vh 0; 
     margin-bottom: 10vh; 
+    font-family: 'Nunito', sans-serif;
 }
 
 section {
@@ -64,6 +65,7 @@ section {
     font-weight: 6;
     margin-top: 1vh; 
     text-align: center;
+    font-family: 'Nunito', sans-serif;
 }
 
 .card h3{
@@ -73,4 +75,5 @@ section {
     font-weight: 600;
     line-height: normal;
     margin-bottom: 1vh; 
+    font-family: 'Nunito', sans-serif;
 }

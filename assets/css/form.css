@@ -44,6 +44,8 @@
   justify-content: right;
   align-items: flex-start;
   gap: 10px;
+  font-family: 'Nunito', sans-serif;
+  font-size: smaller;
 }
 
 .Forminputs button {
@@ -56,6 +58,7 @@
   justify-content: right;
   position: relative;
   cursor: pointer;
+  font-family: 'Nunito', sans-serif;
 }
 
 button:hover {
@@ -70,4 +73,6 @@ button:hover {
   font-weight: 600;
   line-height: normal;
   height: 50px;
+  margin-bottom: 28px;
+  font-family: 'Nunito', sans-serif;
 }

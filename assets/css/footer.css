@@ -1,6 +1,6 @@
 body {
     line-height: 1.5;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 * {
@@ -39,6 +39,7 @@ ul {
     text-transform: capitalize;
     margin-bottom: 3.5vh;
     position: relative;
+    font-family: 'Nunito', sans-serif;
 }
 
 .footer-col ul li:not(:last-child) {
@@ -54,6 +55,7 @@ ul {
     color: black;
     display: block;
     transition: all 0.3s ease;
+    font-family: 'Nunito', sans-serif;
 }
 
 .footer-col ul li a:hover {
